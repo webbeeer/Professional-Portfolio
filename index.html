@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <title>Henrique Webber | Portfolio</title>
+</head>
+
+<body data-bs-offset="0" tabindex="0">
+
+    <div class="site-wrapper">
+
+        <nav class="navbar ...">
+            <div class="collapse navbar-collapse ...">
+                <ul class="navbar-nav ..."></ul>
+            </div>
+        </nav>
+
+        <!--NAV-->
+
+            <nav class="navbar navbar-expand-lg fixed-top nav-container mx-auto mt-3">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+
+            <div class="d-flex align-items-center order-lg-2">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <i class="bi bi-list"></i>
+                </button>
+
+            </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#unique">Toolbox</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div><!--collpse-->
+
+            </nav><!--nav-container-->
+
+        <!--NAV-->
+
+        <section id="hero">
+
+            <img src="img/img.png" alt="image">
+
+            <div class="hero-text">
+
+                <h1>Welcome to my portfolio.</h1>
+
+                <p>My name is Henrique Webber and I am an aspiring software developer studying at Camosun College. This site is a collection of my work in HTML, CSS, Java and Python. I believe that great software is built on strong logic and clear communication. My goal is to leverage my academic background in systems architecture to help teams build scalable, reliable applications.</p>
+
+                <a href="#portfolio" class="btn hero-btn">View My Portfolio</a>
+
+            </div><!--hero-text-->
+
+
+        </section><!--hero-->
+
+        <section id="about">
+
+            <img src="img/me.JPEG" alt="Me" class="img-fluid">
+
+            <div class="about-text">
+
+                <h1>Who I am</h1>
+
+                <p>Motivated student with a strong foundation in web development and Java. Passionate about cloud computing, I am eager to apply my skills in problem-solving to innovative projects in the software engineering sector."</p>
+
+                <p>Outside of my studies, I am a technology enthusiast who enjoys experimenting with IoT hardware and home automation. This hands-on approach keeps me curious and sharpens my troubleshooting skills. I believe that the best way to learn is by doing, and I strive to bring that practical mindset to every challenge.</p>
+
+                <p>"Excellence is not an act, but a habit." — Aristotle</p>
+
+            </div><!--about-text-->
+
+        </section><!--abt-me-->
+
+        <section id="resume">
+
+            <h1>Resume</h1>
+
+            <div class="box-resume-text">
+                
+            <div class="resume-sidetext p-4 d-flex flex-column mx-auto">
+
+                <div class="terminal">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="buttons">
+                            <span class="red"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
+                            </div>
+                            <div class="title">terminal</div>
+                        </div><!--terminal-header-->
+                        
+                        <div class="terminal-body">
+                            <div class="command-line">
+                            <span class="prompt">hwbber@camosun:~$</span>
+                            <span class="typing">./start_profile.sh</span>
+                            </div><!--command-line-->
+
+                            <div class="response">
+                            <p>> Loading skills... [OK]</p>
+                            <p>> Checking motivation... [100%]</p>
+                            <p>> Status: Open for Work </p>
+                            </div><!--response-->
+                        </div><!--terminal-body-->
+                        </div><!--terminal-window-->
+                </div><!--terminal-->
+
+                <div class="skills">
+
+                    <div class="mb-3">
+                        <i class="fa-brands fa-html5"></i>
+                        <label>HTML & CSS</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" style="width: 80%; animation: progressBarHtml 4s forwards infinite;">80%</div>
+                        </div><!--progress-->
+                    </div><!--mb-3-->
+
+                    <div class="mb-3">
+                        <i class="fa-brands fa-java"></i>
+                        <label>Java</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-info java" style="width: 80%; animation: progressBarJava 4s forwards infinite;">80%</div>
+                        </div><!--progress-->
+                    </div><!--mb-3-->
+
+                    <div class="mb-3">
+                        <i class="fa-brands fa-linux"></i>
+                        <label>Linux Command Line</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-info linux" style="width: 70%; animation: progressBarLinux 4s forwards infinite;">70%</div>
+                        </div><!--progress-->
+                    </div><!--mb-3-->
+
+                    <div class="mb-3">
+                        <i class="fa-brands fa-python"></i>
+                        <label>Python</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-info python" style="width: 60%; animation: progressBarPython 4s forwards infinite;">60%</div>
+                        </div><!--progress--> 
+                    </div><!--mb-3-->
+
+                </div><!--skills-->
+
+                <div class="dw">
+                    <a href="resume.pdf" class="btn btn-primary btn-lg" download="resume.pdf">
+                        Download PDF <i class="fa-sharp fa-solid fa-download"></i>
+                    </a>
+                </div><!--dw-->
+
+            </div><!--resume-sidetext-->
+
+            <div class="box-resume">
+
+                <h1>Henrique Silveira Webber</h1>
+
+                <p class="centered">Langford, BC | (250) 509-5763 | henriquewebber@gmail.com</p>
+
+                <span>Summary</span>
+
+                <p>Detail-oriented and reliable student with hands-on experience in a fast-paced retail environment.
+                Proven ability to accurately process customer orders, use store systems, and collaborate with a
+                team. Seeking a part-time supermarket position to contribute a strong work ethic, positive
+                attitude, and excellent customer service skills.</p>
+
+                <span>Education</span>
+
+                <p><strong>College, Victoria, BC Information and Computer Systems</strong></p>
+                <p><i>Expected Graduation: 2027</i></p>
+
+                <p><strong>Colegio Marista Frei Rogerio</strong></p>
+                <p><i>High School Diploma</i></p>
+
+                <span>Experience</span>
+
+                <p><strong>OMNI Customer Fulfillment Associate</p>
+                <p>Walmart, Hillside, Canada</strong></p>
+
+                <ul>
+                    <li>Provided front-line customer support and assisted customers with online orders and instore pickups</li>
+                    <li>Resolved technical and logistical issues with handheld devices and store systems</li>
+                    <li>Collaborated with the team to ensure accurate and timely order processing</li>
+                    <li>Maintained excellent communication with staff and management to improve workflow efficiency</li>
+                </ul>
+                
+            </div><!--box-resume-->
+
+            </div><!--box-resume-text-->
+
+        </section><!--resume-->
+
+        <section id="portfolio">
+
+            <h1>Portfolio</h1>
+
+            <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card text-bg-dark mb-3">
+                    <img src="img/ytclone.png">
+
+                <div class="card-img-overlay overflow-y-auto d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title fs-4 fw-bold">Youtube Clone</h5>
+
+                <div class="badges py-2">
+                    <span class="badge badge-area">HTML</span>
+                    <span class="badge badge-skill">CSS</span>
+                </div>
+
+                <p class="card-text fs-6">YouTube Homepage Clone.</p>
+                <a href="img/ytclone.png" target="_blank" class="btn btn-primary">View</a>
+                </div><!--card text-->
+                </div><!--overlay-->
+            </div><!--col-12-->
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card text-bg-dark mb-3">
+                    <img src="img/WhatsApp Image 2025-12-04 at 19.00.08.jpeg">
+
+                <div class="card-img-overlay overflow-y-auto d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title fs-4 fw-bold">Facebook Login Clone</h5>
+
+                <div class="badges py-2">
+                    <span class="badge badge-area">HTML</span>
+                    <span class="badge badge-skill">CSS</span>
+                </div>
+
+                <p class="card-text fs-6">Facebook Classic Login Page Clone.</p>
+                <a href="img/WhatsApp Image 2025-12-04 at 19.00.08.jpeg" target="_blank" class="btn btn-primary">View</a>
+                </div><!--card text-->
+                </div><!--overlay-->
+            </div><!--col-12-->
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card text-bg-dark mb-3">
+                    <img src="img/tastybakery.png">
+
+                <div class="card-img-overlay overflow-y-auto d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title fs-4 fw-bold">Local Bakery Website</h5>
+
+                <div class="badges py-2">
+                    <span class="badge badge-area">HTML</span>
+                    <span class="badge badge-skill">CSS</span>
+                </div>
+
+                <p class="card-text fs-6">Responsive Bakery Landing Page.</p>
+                <a href="img/tastybakery.png" target="_blank" class="btn btn-primary">View</a>
+                </div><!--card text-->
+                </div><!--overlay-->
+            </div><!--col-12-->
+        </div><!--row-->
+
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card text-bg-dark mb-3">
+                    <img src="img/momentum.png">
+
+                <div class="card-img-overlay overflow-y-auto d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title fs-4 fw-bold">Momentum Athlete Training</h5>
+
+                <div class="badges py-2">
+                    <span class="badge badge-area">HTML</span>
+                    <span class="badge badge-skill">CSS</span>
+                </div>
+
+                <p class="card-text fs-6">Athlete training platform.</p>
+                <a href="img/momentum.png" target="_blank" class="btn btn-primary">View</a>
+                </div><!--card text-->
+                </div><!--overlay-->
+            </div><!--col-12-->
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card text-bg-dark mb-3">
+                    <img src="img/java.png">
+
+                <div class="card-img-overlay overflow-y-auto d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title fs-4 fw-bold">Java Calculator</h5>
+
+                <div class="badges py-2">
+                    <span class="badge badge-area">Java</span>
+                    <span class="badge badge-skill">Swing</span>
+                </div>
+
+                <p class="card-text fs-6">Standard GUI calculator.</p>
+                <a href="img/java.png" target="_blank" class="btn btn-primary">View</a>
+                </div><!--card text-->  
+                </div><!--overlay-->
+            </div><!--col-12-->
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card text-bg-dark mb-3">
+                    <img src="img/Screenshot from 2025-12-04 20-17-21.png">
+
+                <div class="card-img-overlay overflow-y-auto d-flex flex-column justify-content-center align-items-center">
+                    <h5 class="card-title fs-4 fw-bold">Raspberry PI Temperature Viwer</h5>
+
+                <div class="badges py-2">
+                    <span class="badge badge-area">Python</span>
+                    <span class="badge badge-skill">Raspberry PI</span>
+                </div>
+
+                <p class="card-text fs-6">Raspberry Pi thermal tracker.</p>
+                <a href="img/Screenshot from 2025-12-04 20-17-21.png" target="_blank" class="btn btn-primary">View</a>
+                </div><!--card text-->
+                </div><!--overlay-->
+            </div><!--col-12-->
+        </div><!--row-->
+
+        </section><!--portfolio-->
+
+        <section id="unique" class="py-5 d-flex">
+            <div class="container">
+                
+                <h1 class="text-center mb-5" style="color: white; overflow: visible;">My Toolbox</h1>
+
+                <div class="row g-4 text-center">
+                    
+                    <div class="col-6 col-md-3">
+                        <div class="tool-box">
+                            <i class="fa-brands fa-java"></i>
+                            <h5>Java & OOP</h5>
+                        </div><!--tool-box-->
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="tool-box">
+                            <i class="fa-brands fa-python"></i>
+                            <h5>Python & IoT</h5>
+                        </div><!--tool-box-->
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="tool-box">
+                            <i class="fa-brands fa-linux"></i>
+                            <h5>Linux / Bash</h5>
+                        </div><!--tool-box-->
+                    </div>
+
+                </div><!--text-center-->
+            </div><!--container-->
+        </section><!--unique-->
+
+        <section id="contact">
+
+            <h2>Contact me</h2>
+            <p>I am currently open to new opportunities and collaborations. Whether you have a question about my work or want to discuss a potential project, feel free to drop a message!</p>
+
+            <form class="row g-3">
+
+                <div class="row-md-6">
+                    <label for="inputName" class="form-label">Full Name*</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Henrique Webber" required>
+                </div>
+
+                <div class="row-md-6">
+                    <label for="inputEmail" class="form-label">Business Email Address*</label>
+                    <input type="text" class="form-control" id="inputEmail" placeholder="henriquewebber@gmail.com" required>                  
+                </div>
+
+                <div class="row-md-6">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Briefly describe your message." required></textarea>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+
+            </form><!--form-contact-->
+            
+            <div class="foot">
+
+                <div class="right">
+
+                    <a href="#hero"><button class="top-page"><i class="fa-solid fa-arrow-up"></i>Back to Top</button></a>
+
+                </div>
+
+            <div class="ctcme">
+
+                <p>Follow me on</p>
+
+                <a href="facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="instagram.com" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="github.com" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="linkedin.com" target="_blank">
+                    <i class="fa-brands fa-square-linkedin"></i>
+                </a>
+
+            </div><!--ctcme-->
+
+            <div class="txtctc">
+
+                <p class="mail"><i class="fa-solid fa-envelope"></i>henriquewebber@gmail.com</p>
+
+            </div><!--txtctc-->
+
+            </div><!--foot-->
+
+            <hr>
+
+        </section><!--contact-->
+
+    <footer>
+    <div class="container-fluid">
+        <div class="row align-items-center"> <div class="col-4 text-start">
+                <img src="img/whitelogo.png" alt="Logo">
+            </div>
+
+            <div class="col-4 text-center">
+                <p class="m-0">Copyright &copy; 2025 Henrique Webber</p>
+            </div>
+
+            <div class="col-4"></div>
+
+        </div><!--row-->
+    </div><!--container-->
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    </div><!--site-wrapper-->
+
+</body>
+
+</html>
