@@ -2,7 +2,7 @@
 
 A responsive, modern portfolio website built to showcase my technical skills and academic projects. This was my Final Project for the web development module in the Information and Computer Systems program at Camosun College.
 
-[🔗 View Live Demo] ()
+[🔗 View Live Demo] (https://webbeeer.github.io/Professional-Portfolio/)
 
 ![Portfolio Preview](screenshot.png)
 
